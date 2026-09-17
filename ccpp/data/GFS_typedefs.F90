@@ -1328,8 +1328,8 @@ module GFS_typedefs
     integer              :: bl_mynn_edmf       !< flag to activate the mass-flux scheme
     integer              :: bl_mynn_edmf_mom   !< flag to activate the transport of momentum
     integer              :: bl_mynn_edmf_tke   !< flag to activate the transport of TKE
-    integer              :: bl_mynn_edmf_dd    !< flag to activate the mass-flux scheme
-    integer              :: bl_mynn_ess        !< flag to activate downdrafts
+    integer              :: bl_mynn_edmf_dd    !< flag to activate downdrafts
+    integer              :: bl_mynn_ess        !< flag to determine which effective static stability function to use
     integer              :: bl_mynn_cloudmix   !< flag to activate mixing of cloud species
     integer              :: bl_mynn_mixqt      !< flag to mix total water or individual species
     integer              :: bl_mynn_mixscalars !< flag to activate mixing of additional scalars
